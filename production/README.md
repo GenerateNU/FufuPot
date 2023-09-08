@@ -6,7 +6,7 @@ This directory is for code/schematics/layouts that will be implemented in the fi
 ## Directory Structure:
 ```
 .
-|───autopasser-ecad    # contains any schematic/board development files
+|───fufupot-ecad    # contains any schematic/board development files
 |
-└───autopasser-src     # contains any embedded code or important scripts
+└───fufupot-src     # contains any embedded code or important scripts
 ```
