@@ -326,6 +326,26 @@
     [
       "e8bc21b1-eda8-45a8-be25-55b90339183f",
       ""
+    ],
+    [
+      "fa876da0-77d0-4f88-8775-b60f76b9e260",
+      "Motor Driver"
+    ],
+    [
+      "2c87ff15-d4e6-4940-8625-fb8c3cb7c355",
+      "Heating Circuit"
+    ],
+    [
+      "9aa61a69-85f8-4fcb-b123-803352e6223c",
+      "Power"
+    ],
+    [
+      "0ddf35e6-d70e-4721-8626-685bc5740cfc",
+      "User Interface"
+    ],
+    [
+      "5e3d897f-5aee-42a0-935c-062c03814ad9",
+      "Fault Protection"
     ]
   ],
   "text_variables": {}
