@@ -8,6 +8,91 @@
   )
 
 
+  (sheet (at 118.11 123.19) (size 57.15 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0ddf35e6-d70e-4721-8626-685bc5740cfc)
+    (property "Sheetname" "User Interface" (at 118.11 120.6134 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "UI.kicad_sch" (at 118.11 144.3866 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 116.84 76.2) (size 59.69 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2c87ff15-d4e6-4940-8625-fb8c3cb7c355)
+    (property "Sheetname" "Heating Circuit" (at 116.84 73.6234 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "HeatingCircuit.kicad_sch" (at 116.84 98.6666 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 207.01 76.2) (size 49.53 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5e3d897f-5aee-42a0-935c-062c03814ad9)
+    (property "Sheetname" "Fault Protection" (at 207.01 73.6234 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "FaultProtection.kicad_sch" (at 207.01 99.9366 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 125.73 30.48) (size 34.29 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9aa61a69-85f8-4fcb-b123-803352e6223c)
+    (property "Sheetname" "Power" (at 125.73 27.9034 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 125.73 52.9466 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 77.47) (size 49.53 20.32)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fa876da0-77d0-4f88-8775-b60f76b9e260)
+    (property "Sheetname" "Motor Driver" (at 41.91 74.93 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "MotorDriver.kicad_sch" (at 41.91 98.3746 0)
+      (effects (font (size 2 2)) (justify left top))
+    )
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f" (page "2"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
