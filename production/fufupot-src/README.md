@@ -1,1 +1,1 @@
-This is where project code is stored
+This is where project code is stored.
