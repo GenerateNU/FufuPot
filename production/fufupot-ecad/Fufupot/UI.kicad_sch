@@ -481,6 +481,11 @@
           (reference "#PWR02") (unit 1)
         )
       )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
+          (reference "#PWR02") (unit 1)
+        )
+      )
     )
   )
 
@@ -503,6 +508,11 @@
     (instances
       (project "UI"
         (path "/1500fb87-98cb-4de3-ba1f-769b7af6205d"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
           (reference "#PWR05") (unit 1)
         )
       )
@@ -532,6 +542,11 @@
           (reference "D1") (unit 1)
         )
       )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
+          (reference "D1") (unit 1)
+        )
+      )
     )
   )
 
@@ -557,6 +572,11 @@
           (reference "#PWR06") (unit 1)
         )
       )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
+          (reference "#PWR06") (unit 1)
+        )
+      )
     )
   )
 
@@ -579,6 +599,11 @@
     (instances
       (project "UI"
         (path "/1500fb87-98cb-4de3-ba1f-769b7af6205d"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
           (reference "#PWR03") (unit 1)
         )
       )
@@ -608,6 +633,11 @@
           (reference "BZ1") (unit 1)
         )
       )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
+          (reference "BZ1") (unit 1)
+        )
+      )
     )
   )
 
@@ -630,6 +660,11 @@
     (instances
       (project "UI"
         (path "/1500fb87-98cb-4de3-ba1f-769b7af6205d"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
           (reference "#PWR01") (unit 1)
         )
       )
@@ -659,6 +694,11 @@
           (reference "R1") (unit 1)
         )
       )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
+          (reference "R1") (unit 1)
+        )
+      )
     )
   )
 
@@ -685,6 +725,11 @@
           (reference "R2") (unit 1)
         )
       )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
+          (reference "R2") (unit 1)
+        )
+      )
     )
   )
 
@@ -707,6 +752,11 @@
     (instances
       (project "UI"
         (path "/1500fb87-98cb-4de3-ba1f-769b7af6205d"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f/0ddf35e6-d70e-4721-8626-685bc5740cfc"
           (reference "#PWR04") (unit 1)
         )
       )
