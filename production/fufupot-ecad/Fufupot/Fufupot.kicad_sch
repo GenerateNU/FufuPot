@@ -1007,6 +1007,86 @@
         )
       )
     )
+    (symbol "ECQUAAF335LD:ECQUAAF335LD" (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 8.89 6.35 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Value" "ECQUAAF335LD" (at 8.89 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Footprint" "ECQUAAF335LD" (at 8.89 -96.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C249.pdf" (at 8.89 -196.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Height" "30.5" (at 8.89 -396.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Manufacturer_Name" "Panasonic" (at 8.89 -496.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Manufacturer_Part_Number" "ECQUAAF335LD" (at 8.89 -596.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Mouser Part Number" "" (at 8.89 -696.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Mouser Price/Stock" "" (at 8.89 -796.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Arrow Part Number" "" (at 8.89 -896.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Arrow Price/Stock" "" (at 8.89 -996.19 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "ki_description" "MPP   Rated voltage (V):  275.0  Category Temp. Range (C):-40 to 110   Capacitance (F): 3.300000  Capacitance tolerance (%): -20 - 20   l*w*h   41*15*30.5" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "ECQUAAF335LD_1_1"
+        (polyline
+          (pts
+            (xy 5.08 0)
+            (xy 5.588 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.588 2.54)
+            (xy 5.588 -2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.112 0)
+            (xy 7.62 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.112 2.54)
+            (xy 7.112 -2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 12.7 0 180) (length 5.08)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "FOD3150:FOD3150" (in_bom yes) (on_board yes)
       (property "Reference" "IC" (at 26.67 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left top))
@@ -2168,6 +2248,46 @@
         )
       )
     )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2274,9 +2394,6 @@
     )
   )
 
-  (junction (at 198.12 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid 0252f836-2033-430f-bd83-881125878976)
-  )
   (junction (at 370.205 84.455) (diameter 0) (color 0 0 0 0)
     (uuid 0406cc85-450a-4696-8464-60a9d42fe609)
   )
@@ -2313,6 +2430,9 @@
   (junction (at 371.475 133.985) (diameter 0) (color 0 0 0 0)
     (uuid 4a1d9725-090c-400d-baba-f07e742357a2)
   )
+  (junction (at 47.371 58.293) (diameter 0) (color 0 0 0 0)
+    (uuid 51cad58b-97ba-4ffa-8f8b-9b503ea46b03)
+  )
   (junction (at 175.768 247.015) (diameter 0) (color 0 0 0 0)
     (uuid 5b7fb519-7b88-4585-81ba-064ab1fe81ea)
   )
@@ -2328,6 +2448,9 @@
   (junction (at 154.432 216.535) (diameter 0) (color 0 0 0 0)
     (uuid 6c2e80f9-5d26-4d02-99d3-027fec0b6da5)
   )
+  (junction (at 128.27 62.23) (diameter 0) (color 0 0 0 0)
+    (uuid 7a54e642-bba1-486f-8b27-51d9ad815197)
+  )
   (junction (at 171.958 202.565) (diameter 0) (color 0 0 0 0)
     (uuid 7b73bf5d-9ff0-42dc-9715-03f676b95728)
   )
@@ -2342,9 +2465,6 @@
   )
   (junction (at 303.53 193.04) (diameter 0) (color 0 0 0 0)
     (uuid 9f3cdfd8-f6e2-41d4-8ab2-09d2fa7899cf)
-  )
-  (junction (at 212.09 35.56) (diameter 0) (color 0 0 0 0)
-    (uuid a3b7b679-1dd2-4383-9622-c0f9028819e7)
   )
   (junction (at 121.92 35.56) (diameter 0) (color 0 0 0 0)
     (uuid a64efb35-8d76-4aed-976f-43aeeb92553b)
@@ -2364,9 +2484,6 @@
   (junction (at 179.07 45.72) (diameter 0) (color 0 0 0 0)
     (uuid b2b94362-8f6f-43aa-a73a-005bd5cdefb9)
   )
-  (junction (at 96.52 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid b4b638c2-984b-4395-9169-d2017406b9bf)
-  )
   (junction (at 370.205 52.705) (diameter 0) (color 0 0 0 0)
     (uuid b6d33f77-22bc-4bdd-9ba4-bfca249adf58)
   )
@@ -2375,9 +2492,6 @@
   )
   (junction (at 287.02 236.22) (diameter 0) (color 0 0 0 0)
     (uuid b921e232-6554-4a15-b129-baeccb75402d)
-  )
-  (junction (at 128.27 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid bc1a108f-7e64-4db1-9750-a37002de1d99)
   )
   (junction (at 288.29 193.04) (diameter 0) (color 0 0 0 0)
     (uuid c2658764-969d-4dba-9ceb-6e3ad577b78b)
@@ -2388,11 +2502,14 @@
   (junction (at 370.205 64.135) (diameter 0) (color 0 0 0 0)
     (uuid c84f8fc0-2d2e-45b2-8bb4-e523352fe2c6)
   )
+  (junction (at 96.52 62.23) (diameter 0) (color 0 0 0 0)
+    (uuid ccc67f4f-09ca-484d-b3c0-631bd609f0b3)
+  )
   (junction (at 238.76 212.725) (diameter 0) (color 0 0 0 0)
     (uuid cda20b4e-716e-4b4f-8f0e-21596a05617b)
   )
-  (junction (at 85.09 35.56) (diameter 0) (color 0 0 0 0)
-    (uuid da2aaa1d-b9dd-4a76-86a7-52eac6a9e3a5)
+  (junction (at 44.323 40.64) (diameter 0) (color 0 0 0 0)
+    (uuid d756589a-7add-4405-b5f8-3fa015f06b04)
   )
   (junction (at 153.67 62.23) (diameter 0) (color 0 0 0 0)
     (uuid dbe79256-63a1-46a6-8e79-41caee8e857f)
@@ -2406,8 +2523,12 @@
   (junction (at 175.768 244.475) (diameter 0) (color 0 0 0 0)
     (uuid f5467045-4796-4538-a925-a459bae5cf30)
   )
+  (junction (at 48.895 48.641) (diameter 0) (color 0 0 0 0)
+    (uuid fc8dc6da-8fd6-478b-b233-7c90d7c7f686)
+  )
 
   (no_connect (at 184.15 229.235) (uuid 0979f497-81fb-4615-bb00-ca6f76972563))
+  (no_connect (at 128.27 43.18) (uuid 2cad875f-affa-4488-bafd-78a97f22546f))
   (no_connect (at 224.79 215.265) (uuid 2d506cf5-353a-4d86-8f90-bcb9e1f2f88d))
   (no_connect (at 224.79 217.805) (uuid 37efbf4e-92f0-4b1f-a995-91da87510c68))
   (no_connect (at 224.79 207.645) (uuid 49c87720-9a75-46de-a12d-003e9f483daf))
@@ -2417,6 +2538,7 @@
   (no_connect (at 288.925 109.855) (uuid 7797226a-30f0-4a01-adaf-14d9c47366cd))
   (no_connect (at 224.79 220.345) (uuid 905569ad-0ae2-4934-a59e-dd808179e8af))
   (no_connect (at 224.79 239.395) (uuid 94847465-0543-4245-acf5-a2b57e6499a6))
+  (no_connect (at 128.27 45.72) (uuid b0426f48-4820-4b1e-bf21-c6230029c1fa))
   (no_connect (at 184.15 226.695) (uuid bbfaaf13-d18b-4020-90ee-6d48c8a38e81))
   (no_connect (at 224.79 234.315) (uuid c7b6ebea-5854-4b6d-8141-b0061e478a4c))
   (no_connect (at 224.79 236.855) (uuid da24927a-e325-4205-979c-38deacc3c152))
@@ -2431,10 +2553,6 @@
   (wire (pts (xy 288.29 193.04) (xy 303.53 193.04))
     (stroke (width 0) (type default))
     (uuid 0169957d-954f-42ef-9a44-b45995261622)
-  )
-  (wire (pts (xy 85.09 35.56) (xy 85.09 62.23))
-    (stroke (width 0) (type default))
-    (uuid 019eb7c8-95bc-476c-a66a-5fee3982e57e)
   )
   (wire (pts (xy 319.405 112.395) (xy 321.945 112.395))
     (stroke (width 0) (type default))
@@ -2463,6 +2581,14 @@
   (wire (pts (xy 198.12 35.56) (xy 212.09 35.56))
     (stroke (width 0) (type default))
     (uuid 0e9b51e0-0016-456b-a753-aaf46c8e7f2f)
+  )
+  (wire (pts (xy 375.92 226.06) (xy 375.92 227.33))
+    (stroke (width 0) (type default))
+    (uuid 0ef70762-a35d-482f-ab36-835213b8099f)
+  )
+  (wire (pts (xy 48.895 48.641) (xy 48.895 52.07))
+    (stroke (width 0) (type default))
+    (uuid 0f32806d-6dcf-446e-9083-458bf33de326)
   )
   (wire (pts (xy 363.855 79.375) (xy 363.855 84.455))
     (stroke (width 0) (type default))
@@ -2537,6 +2663,10 @@
     (stroke (width 0) (type default))
     (uuid 250716e1-96b0-4348-a6a5-0b0202a88f53)
   )
+  (wire (pts (xy 204.597 259.588) (xy 204.597 261.62))
+    (stroke (width 0) (type default))
+    (uuid 25850442-e30c-48a5-bd8a-c0cf65d1c9e4)
+  )
   (wire (pts (xy 175.7765 235.6405) (xy 175.768 238.125))
     (stroke (width 0) (type default))
     (uuid 25c193d7-99ab-4c27-8387-c1d303973145)
@@ -2610,7 +2740,7 @@
     (stroke (width 0) (type default))
     (uuid 3543bb49-578a-4ce0-a227-15a72e578b9a)
   )
-  (wire (pts (xy 45.085 44.45) (xy 45.085 49.53))
+  (wire (pts (xy 44.323 36.83) (xy 44.323 40.64))
     (stroke (width 0) (type default))
     (uuid 368cf6fa-494e-48e3-9d6d-152de2351777)
   )
@@ -2625,6 +2755,10 @@
   (wire (pts (xy 323.215 99.695) (xy 319.405 99.695))
     (stroke (width 0) (type default))
     (uuid 3854528b-2ba2-4233-a713-a0eae346531b)
+  )
+  (wire (pts (xy 96.52 62.23) (xy 128.27 62.23))
+    (stroke (width 0) (type default))
+    (uuid 38698b93-06b9-4dbe-8872-be195023a3a6)
   )
   (wire (pts (xy 35.56 113.03) (xy 54.102 113.03))
     (stroke (width 0) (type default))
@@ -2691,6 +2825,10 @@
     (stroke (width 0) (type default))
     (uuid 4740a584-940d-4210-a924-138048d53e97)
   )
+  (wire (pts (xy 340.995 52.705) (xy 340.995 62.484))
+    (stroke (width 0) (type default))
+    (uuid 48be99b5-4e0c-4f68-91f4-aa9cd98e6373)
+  )
   (wire (pts (xy 185.801 268.224) (xy 185.801 271.78))
     (stroke (width 0) (type default))
     (uuid 49f6c203-1937-4b79-8b4c-14622894550d)
@@ -2714,6 +2852,10 @@
   (wire (pts (xy 360.68 224.79) (xy 367.03 224.79))
     (stroke (width 0) (type default))
     (uuid 4fd5f9a4-16a2-47d3-bd98-7865c9894003)
+  )
+  (wire (pts (xy 36.957 40.64) (xy 44.323 40.64))
+    (stroke (width 0) (type default))
+    (uuid 502ac196-60f8-450f-8a8d-57d9bdcb3bce)
   )
   (wire (pts (xy 287.02 222.25) (xy 287.02 224.79))
     (stroke (width 0) (type default))
@@ -2747,6 +2889,10 @@
     (stroke (width 0) (type default))
     (uuid 59e0a82c-9f70-46c1-a6b8-fb0654289780)
   )
+  (wire (pts (xy 27.94 123.19) (xy 27.94 127.508))
+    (stroke (width 0) (type default))
+    (uuid 5a623dcb-450f-46cf-b3d3-babebe9b56ed)
+  )
   (wire (pts (xy 138.43 62.23) (xy 138.43 55.88))
     (stroke (width 0) (type default))
     (uuid 5be9aa86-2da7-4583-9257-5f84a3cf136e)
@@ -2760,7 +2906,7 @@
     (stroke (width 0) (type default))
     (uuid 60996ac5-536d-46b4-9f01-39c0723d1383)
   )
-  (wire (pts (xy 395.605 226.06) (xy 398.145 226.06))
+  (wire (pts (xy 393.7 226.06) (xy 398.145 226.06))
     (stroke (width 0) (type default))
     (uuid 60c341f2-63c5-4581-aad3-d2e6e23b3e3e)
   )
@@ -2793,9 +2939,13 @@
     (stroke (width 0) (type default))
     (uuid 65d1e16b-0b97-4658-b62b-6e238a367746)
   )
-  (wire (pts (xy 48.895 46.99) (xy 48.895 52.07))
+  (wire (pts (xy 48.895 46.99) (xy 48.895 48.641))
     (stroke (width 0) (type default))
     (uuid 66648a46-be5f-4843-80fb-afdbe9f9b5df)
+  )
+  (wire (pts (xy 56.642 48.641) (xy 48.895 48.641))
+    (stroke (width 0) (type default))
+    (uuid 671cf8c6-fdcf-43ef-b193-e910b1cf9a9e)
   )
   (wire (pts (xy 271.78 57.15) (xy 271.78 62.23))
     (stroke (width 0) (type default))
@@ -2804,6 +2954,10 @@
   (wire (pts (xy 35.56 107.95) (xy 41.656 107.95))
     (stroke (width 0) (type default))
     (uuid 68fbd7d1-1713-48ab-b98b-8f5fc8b8762d)
+  )
+  (wire (pts (xy 47.371 58.293) (xy 53.848 58.293))
+    (stroke (width 0) (type default))
+    (uuid 694cb009-8cdd-4719-a743-a2844f78738d)
   )
   (wire (pts (xy 252.73 44.45) (xy 252.73 46.99))
     (stroke (width 0) (type default))
@@ -2825,9 +2979,13 @@
     (stroke (width 0) (type default))
     (uuid 6d2dd25e-08d9-4119-92ae-cad5d42e2062)
   )
-  (wire (pts (xy 27.94 123.19) (xy 27.94 127.508))
+  (wire (pts (xy 96.52 62.23) (xy 96.52 67.31))
     (stroke (width 0) (type default))
-    (uuid 6f845c14-dbfd-4129-adc2-80bbdfeea3af)
+    (uuid 6dd3f09e-43e3-4a5f-ab0b-b0a03aaed6c6)
+  )
+  (wire (pts (xy 375.92 227.33) (xy 360.68 227.33))
+    (stroke (width 0) (type default))
+    (uuid 6dfba8f1-edea-47f3-abd7-6cc45eb55d5c)
   )
   (wire (pts (xy 315.595 99.695) (xy 319.405 99.695))
     (stroke (width 0) (type default))
@@ -2837,7 +2995,7 @@
     (stroke (width 0) (type default))
     (uuid 706f5e5b-132e-40d7-ae25-94719cbd03b0)
   )
-  (wire (pts (xy 47.625 58.42) (xy 47.625 54.61))
+  (wire (pts (xy 47.371 61.087) (xy 47.371 58.293))
     (stroke (width 0) (type default))
     (uuid 730aded6-1a8d-472e-93f5-2c27750e72a0)
   )
@@ -2894,6 +3052,10 @@
     (stroke (width 0) (type default))
     (uuid 802b0c3c-c191-416c-aaf7-a4566071b168)
   )
+  (wire (pts (xy 340.995 62.484) (xy 343.789 62.484))
+    (stroke (width 0) (type default))
+    (uuid 81528b83-7413-44da-a4da-52b81467970e)
+  )
   (wire (pts (xy 94.615 251.46) (xy 118.745 251.46))
     (stroke (width 0) (type default))
     (uuid 82254d6a-0494-439d-b8d7-96612da25c33)
@@ -2934,7 +3096,7 @@
     (stroke (width 0) (type default))
     (uuid 86dd8c33-ebe1-4225-bc14-8cc743c74045)
   )
-  (wire (pts (xy 45.085 49.53) (xy 42.545 49.53))
+  (wire (pts (xy 44.323 49.53) (xy 42.545 49.53))
     (stroke (width 0) (type default))
     (uuid 8733b971-8029-49e1-a25d-42d28ad642e8)
   )
@@ -2990,10 +3152,6 @@
     (stroke (width 0) (type default))
     (uuid 95de53fe-c0a2-4ce2-92b8-7dcf60808e69)
   )
-  (wire (pts (xy 96.52 62.23) (xy 85.09 62.23))
-    (stroke (width 0) (type default))
-    (uuid 9723ef93-94d7-46a4-860b-c911a78d14a1)
-  )
   (wire (pts (xy 270.51 193.04) (xy 270.51 172.72))
     (stroke (width 0) (type default))
     (uuid 9733c3ba-1df2-474d-9d89-6de2dc72b63d)
@@ -3046,6 +3204,10 @@
   (wire (pts (xy 346.075 133.985) (xy 357.505 133.985))
     (stroke (width 0) (type default))
     (uuid a00d3c46-b8d9-4ab2-af35-b9ae8cb007fa)
+  )
+  (wire (pts (xy 44.323 40.64) (xy 44.323 49.53))
+    (stroke (width 0) (type default))
+    (uuid a1149081-6888-4c31-9870-9e6e32371831)
   )
   (wire (pts (xy 224.79 202.565) (xy 242.824 202.565))
     (stroke (width 0) (type default))
@@ -3169,10 +3331,6 @@
     (stroke (width 0) (type default))
     (uuid bb63d085-d242-438a-bf28-410c36c3bbb2)
   )
-  (wire (pts (xy 198.12 62.23) (xy 212.09 62.23))
-    (stroke (width 0) (type default))
-    (uuid bbebb24e-1de6-4ad8-9e78-18397073df3d)
-  )
   (wire (pts (xy 371.475 133.985) (xy 386.715 133.985))
     (stroke (width 0) (type default))
     (uuid bc014da7-7771-40b6-b1a2-0422e4cac22b)
@@ -3244,10 +3402,6 @@
     (uuid c81e4d86-3d9f-49c1-b67f-2a7407a8e41a)
   )
 
-  (wire (pts (xy 204.597 259.588) (xy 204.597 261.62))
-    (stroke (width 0) (type default))
-    (uuid cd11ca05-5098-48bd-8566-70f6385d2160)
-  )
   (wire (pts (xy 360.68 209.55) (xy 367.03 209.55))
     (stroke (width 0) (type default))
     (uuid cd56fa9f-1108-48ed-8f30-397729a25bdf)
@@ -3268,10 +3422,6 @@
     (stroke (width 0) (type default))
     (uuid cee3d1f1-493d-4861-8e2d-dc04697e1e02)
   )
-  (wire (pts (xy 212.09 62.23) (xy 212.09 35.56))
-    (stroke (width 0) (type default))
-    (uuid cf3aa9b9-f2e5-4ebe-83ea-628ad9001da3)
-  )
   (wire (pts (xy 288.29 205.74) (xy 288.29 210.82))
     (stroke (width 0) (type default))
     (uuid cfd97219-94b7-4059-8677-96457382e2aa)
@@ -3283,10 +3433,6 @@
   (wire (pts (xy 189.865 117.475) (xy 189.865 120.015))
     (stroke (width 0) (type default))
     (uuid d0ee3e61-7fa6-4b78-abce-e8c79a52fb53)
-  )
-  (wire (pts (xy 340.995 52.705) (xy 340.995 62.865))
-    (stroke (width 0) (type default))
-    (uuid d1bb619d-83e5-423d-88cd-a582d00ca152)
   )
   (wire (pts (xy 61.595 259.08) (xy 61.595 264.16))
     (stroke (width 0) (type default))
@@ -3320,7 +3466,7 @@
     (stroke (width 0) (type default))
     (uuid d79aa6e9-7f2f-4846-8e41-4781c017ac5d)
   )
-  (wire (pts (xy 96.52 62.23) (xy 96.52 67.31))
+  (wire (pts (xy 96.52 46.99) (xy 96.52 62.23))
     (stroke (width 0) (type default))
     (uuid d832de4c-ceb7-4ca1-a7e5-dcffe6d0f0dc)
   )
@@ -3358,10 +3504,6 @@
     (uuid e1c279d8-eb3a-4760-829f-e2afc1961d0a)
   )
 
-  (wire (pts (xy 96.52 62.23) (xy 128.27 62.23))
-    (stroke (width 0) (type default))
-    (uuid e27c1947-ddeb-4935-864f-27dd8feaf4cc)
-  )
   (wire (pts (xy 360.68 237.49) (xy 367.03 237.49))
     (stroke (width 0) (type default))
     (uuid e3dd3a6d-e72b-4e3c-b76f-06481783e61f)
@@ -3443,7 +3585,7 @@
     (stroke (width 0) (type default))
     (uuid f4d0cde8-badd-4fd4-816d-009c508cc990)
   )
-  (wire (pts (xy 47.625 54.61) (xy 42.545 54.61))
+  (wire (pts (xy 47.371 54.61) (xy 42.545 54.61))
     (stroke (width 0) (type default))
     (uuid f70a40c8-e635-473b-9532-7389d0423d46)
   )
@@ -3455,29 +3597,29 @@
     (stroke (width 0) (type default))
     (uuid f8cbaf80-d34f-42e5-9761-37066f566c0e)
   )
+  (wire (pts (xy 47.371 58.293) (xy 47.371 54.61))
+    (stroke (width 0) (type default))
+    (uuid f9512439-e20e-4c34-8235-91ca21707a8f)
+  )
   (wire (pts (xy 179.07 55.88) (xy 179.07 57.15))
     (stroke (width 0) (type default))
     (uuid f9a808c9-3c18-4a8c-9fc1-f47d9bd9643e)
-  )
-  (wire (pts (xy 340.995 70.485) (xy 340.995 76.835))
-    (stroke (width 0) (type default))
-    (uuid fa1817e3-fb4b-4117-ad6c-b8f066df0ece)
-  )
-  (wire (pts (xy 96.52 46.99) (xy 96.52 62.23))
-    (stroke (width 0) (type default))
-    (uuid fb3623ec-7019-4f61-83cf-a42b7ab9fbea)
   )
   (wire (pts (xy 175.768 247.015) (xy 184.15 247.015))
     (stroke (width 0) (type default))
     (uuid fbc9d219-935f-4782-b150-3f5e8b016ed1)
   )
-  (wire (pts (xy 56.642 107.95) (xy 56.642 102.87))
+  (wire (pts (xy 56.642 102.87) (xy 56.642 107.95))
     (stroke (width 0) (type default))
     (uuid fcab5d55-bcbd-4dc4-939c-1d30a1fdcadf)
   )
   (wire (pts (xy 370.205 33.655) (xy 370.205 41.275))
     (stroke (width 0) (type default))
     (uuid fddbd293-ce58-4396-9f2c-3a6d16f246d6)
+  )
+  (wire (pts (xy 386.08 226.06) (xy 375.92 226.06))
+    (stroke (width 0) (type default))
+    (uuid fed5f357-c8fd-4a4a-a7d4-69e2c4328477)
   )
 
   (text "A4 & A5 extra gpio\n" (at 374.65 203.835 0)
@@ -3524,6 +3666,10 @@
     (effects (font (size 4 4) (thickness 0.6) bold) (justify left bottom))
     (uuid ba986de1-2391-4b18-9389-c87ae05c6035)
   )
+  (text "48V Source" (at 59.182 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c2c4ae33-e3a7-4341-9aa9-06df4548751e)
+  )
   (text "SPI Bus Headers \nand GPIO Pins" (at 18.415 166.37 0)
     (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
     (uuid d3b5e12d-38ac-43e5-8b27-e25dcf6b61ba)
@@ -3538,17 +3684,9 @@
     (uuid f40c2578-0dc8-452c-979a-a8b72f24c740)
   )
 
-  (label "15V Output" (at 212.09 48.26 0) (fields_autoplaced)
+  (label "15V Output" (at 214.122 30.734 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4510c1ce-8f85-4180-988c-b5ed6f5d2244)
-  )
-  (label "48V Source" (at 48.895 52.07 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 632d0360-2b9b-4bb9-9531-f941b723958d)
-  )
-  (label "48V Source" (at 85.09 48.26 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8ec77f3f-ebec-4357-8f20-06ad937893e2)
   )
 
   (global_label "D_Red" (shape input) (at 94.615 255.27 180) (fields_autoplaced)
@@ -3884,7 +4022,7 @@
   (symbol (lib_id "power:GND") (at 274.32 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00d10fb0-55b7-4ba4-a54d-0971d3e4e35d)
-    (property "Reference" "#PWR05" (at 274.32 242.57 0)
+    (property "Reference" "#PWR036" (at 274.32 242.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 240.03 0)
@@ -3900,7 +4038,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3909,7 +4047,7 @@
   (symbol (lib_id "Device:R") (at 189.865 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03062c1b-5dcd-47a6-9ca2-d520eb43efa3)
-    (property "Reference" "R3" (at 192.405 112.395 0)
+    (property "Reference" "R7" (at 192.405 112.395 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 192.405 114.935 0)
@@ -3926,7 +4064,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3957,7 +4095,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R14") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3966,7 +4104,7 @@
   (symbol (lib_id "power:GND") (at 252.73 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06f6ea3c-e694-4472-9bcc-a770a07dd5ab)
-    (property "Reference" "#PWR027" (at 252.73 25.4 0)
+    (property "Reference" "#PWR030" (at 252.73 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 26.67 0)
@@ -3982,32 +4120,32 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 45.085 44.45 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 44.323 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07fc85d1-88f8-44ff-9738-63d1147047d2)
-    (property "Reference" "#PWR014" (at 45.085 48.26 0)
+    (property "Reference" "#PWR04" (at 44.323 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 45.085 39.37 0)
+    (property "Value" "+5V" (at 44.323 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 45.085 44.45 0)
+    (property "Footprint" "" (at 44.323 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 45.085 44.45 0)
+    (property "Datasheet" "" (at 44.323 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 98ac5a6a-e4a2-4042-b5ad-d30ece0c8deb))
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4038,7 +4176,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R17") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4069,7 +4207,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R16") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4100,59 +4238,32 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R19") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 106.68 191.135 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 11fca1e3-d292-4708-8639-733e9e802576)
-    (property "Reference" "J9" (at 106.68 193.675 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x03_Pin" (at 106.68 196.215 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 106.68 191.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 106.68 191.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 07733771-cdbb-4736-b703-5d2113da99fc))
-    (pin "2" (uuid d0572e42-df39-4111-8b4f-becea85b91e2))
-    (pin "3" (uuid 6b918a43-eb27-4bcb-9178-27b7a16f3d2f))
-    (instances
-      (project "Fufupot"
-        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 47.625 58.42 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 47.371 61.087 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16266685-18b4-498e-a59d-b28154c17418)
-    (property "Reference" "#PWR023" (at 47.625 64.77 0)
+    (property "Reference" "#PWR05" (at 47.371 67.437 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 47.625 63.5 0)
+    (property "Value" "GND" (at 47.371 66.167 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 47.625 58.42 0)
+    (property "Footprint" "" (at 47.371 61.087 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 47.625 58.42 0)
+    (property "Datasheet" "" (at 47.371 61.087 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f45c1153-ae4a-484d-b669-bb0cedb526c6))
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4182,7 +4293,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4191,7 +4302,7 @@
   (symbol (lib_id "Device:C") (at 278.13 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b2ef925-92ec-4a57-93d1-9fc88c8e0164)
-    (property "Reference" "C5" (at 276.86 233.68 0)
+    (property "Reference" "C6" (at 276.86 233.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (at 280.67 233.68 0)
@@ -4208,7 +4319,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4217,7 +4328,7 @@
   (symbol (lib_id "power:+48V") (at 109.22 177.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e693617-4cd4-464a-9a7a-3c619c32daf7)
-    (property "Reference" "#PWR045" (at 109.22 180.975 0)
+    (property "Reference" "#PWR018" (at 109.22 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+48V" (at 109.22 172.085 0)
@@ -4233,7 +4344,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4263,7 +4374,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4272,7 +4383,7 @@
   (symbol (lib_id "power:GND") (at 304.8 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21a898d9-f704-4d70-9561-20f020d9e96c)
-    (property "Reference" "#PWR07" (at 304.8 247.65 0)
+    (property "Reference" "#PWR039" (at 304.8 247.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 246.38 0)
@@ -4288,7 +4399,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4297,7 +4408,7 @@
   (symbol (lib_id "Regulator_Switching:LM5165") (at 138.43 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 226ed0e2-3e9d-4e58-be8f-47e3f79cd733)
-    (property "Reference" "U1" (at 138.43 27.94 0)
+    (property "Reference" "U2" (at 138.43 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM5165DRC" (at 138.43 30.48 0)
@@ -4323,7 +4434,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -4355,7 +4466,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -4364,7 +4475,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 23.495 186.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 264fcd17-dcb0-4c14-aa96-a94a09486097)
-    (property "Reference" "J7" (at 24.13 178.435 0)
+    (property "Reference" "J1" (at 24.13 178.435 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04_Pin" (at 24.13 180.975 0)
@@ -4383,7 +4494,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J7") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -4392,7 +4503,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 66.675 266.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 289be8c3-53ca-4030-b365-b9985a0d418b)
-    (property "Reference" "J3" (at 67.945 265.43 0)
+    (property "Reference" "J6" (at 67.945 265.43 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x03_Pin" (at 67.945 267.97 0)
@@ -4410,7 +4521,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J3") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -4440,7 +4551,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4471,7 +4582,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R15") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -4480,7 +4591,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 172.085 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b2e7c75-1bfb-474d-97d3-6087e43660a0)
-    (property "Reference" "SW3" (at 172.085 112.395 0)
+    (property "Reference" "SW1" (at 172.085 112.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 172.085 114.935 0)
@@ -4497,37 +4608,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "SW3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 340.995 76.835 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2fa0ef1f-ae10-482d-8d4d-24960a6d34ee)
-    (property "Reference" "#PWR01" (at 340.995 83.185 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 340.995 81.915 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 340.995 76.835 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 340.995 76.835 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d3457ab8-22a8-4609-a66e-ec8075d0d269))
-    (instances
-      (project "Induction Heating"
-        (path "/66a13b46-c5dd-4058-93db-41d44d6afefc"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "Fufupot"
-        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR033") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -4536,7 +4617,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 123.825 254 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fc8afa9-3bc7-4236-9f70-c5acbea528db)
-    (property "Reference" "J8" (at 125.095 251.46 0)
+    (property "Reference" "J9" (at 125.095 251.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Pin" (at 125.095 254 0)
@@ -4555,7 +4636,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -4611,7 +4692,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4641,7 +4722,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4650,7 +4731,7 @@
   (symbol (lib_id "Device:R") (at 252.73 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 454655ac-e6ff-4abb-a4a2-7dedabe582ba)
-    (property "Reference" "R10" (at 255.27 39.37 0)
+    (property "Reference" "R12" (at 255.27 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 255.27 41.91 0)
@@ -4667,7 +4748,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R10") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4676,7 +4757,7 @@
   (symbol (lib_id "power:GND") (at 398.145 226.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49d46235-2f27-468f-b993-53139ce557fb)
-    (property "Reference" "#PWR09" (at 404.495 226.06 0)
+    (property "Reference" "#PWR046" (at 404.495 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 401.955 226.06 90)
@@ -4692,7 +4773,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -4701,7 +4782,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 53.975 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a24520e-9a95-40d7-87e1-349cdc1ef205)
-    (property "Reference" "J1" (at 54.61 177.8 0)
+    (property "Reference" "J4" (at 54.61 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 54.61 180.34 0)
@@ -4718,7 +4799,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J1") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -4727,7 +4808,7 @@
   (symbol (lib_id "Device:R") (at 271.78 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b7dedc2-a101-451e-ae26-31d9dee73111)
-    (property "Reference" "102PS1J3" (at 274.32 52.07 0)
+    (property "Reference" "102PS1J2" (at 274.32 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 274.32 54.61 0)
@@ -4744,7 +4825,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "102PS1J3") (unit 1)
+          (reference "102PS1J2") (unit 1)
         )
       )
     )
@@ -4753,7 +4834,7 @@
   (symbol (lib_id "Device:R") (at 381.635 234.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b8f3c0d-5245-4709-ad09-c6ad0995878c)
-    (property "Reference" "R4" (at 381.635 228.6 90)
+    (property "Reference" "R19" (at 381.635 228.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 381.635 231.14 90)
@@ -4770,7 +4851,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R4") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -4779,7 +4860,7 @@
   (symbol (lib_id "power:GND") (at 95.25 194.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d3926b6-5656-4b36-ac5f-a94a03f7e306)
-    (property "Reference" "#PWR043" (at 95.25 201.295 0)
+    (property "Reference" "#PWR013" (at 95.25 201.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 200.025 0)
@@ -4795,7 +4876,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4825,7 +4906,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4856,7 +4937,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "L4") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -4911,7 +4992,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "U8") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4942,7 +5023,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R13") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4951,7 +5032,7 @@
   (symbol (lib_id "power:GND") (at 271.78 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55c244c5-f3a2-44a7-abe7-242e2026c7e3)
-    (property "Reference" "#PWR029" (at 271.78 25.4 0)
+    (property "Reference" "#PWR033" (at 271.78 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 271.78 26.67 0)
@@ -4967,7 +5048,32 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR033") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 53.848 58.293 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 57110d1a-199b-43c9-9b08-b8a9ed9a73e2)
+    (property "Reference" "#FLG01" (at 53.848 56.388 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 53.848 53.467 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 53.848 58.293 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.848 58.293 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 95414fdc-2aee-449a-9df9-b1686c6b6372))
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -4976,7 +5082,7 @@
   (symbol (lib_id "power:VCC") (at 189.865 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 584a77b4-2e82-463d-afac-f97a46468dfa)
-    (property "Reference" "#PWR042" (at 189.865 111.125 0)
+    (property "Reference" "#PWR026" (at 189.865 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 189.865 102.235 0)
@@ -4992,7 +5098,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5022,7 +5128,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -5031,7 +5137,7 @@
   (symbol (lib_id "power:GND") (at 167.005 125.095 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ba5d14b-b886-4fab-9d19-17153184a489)
-    (property "Reference" "#PWR041" (at 167.005 131.445 0)
+    (property "Reference" "#PWR021" (at 167.005 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.005 130.175 0)
@@ -5047,7 +5153,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5077,7 +5183,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5108,7 +5214,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R8") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -5138,7 +5244,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -5147,7 +5253,7 @@
   (symbol (lib_id "Device:C") (at 278.13 222.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 659a4ea0-90b8-4173-8dcb-a70664e0a0ea)
-    (property "Reference" "C4" (at 276.86 219.71 0)
+    (property "Reference" "C5" (at 276.86 219.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (at 279.4 219.71 0)
@@ -5164,7 +5270,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -5194,7 +5300,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5203,7 +5309,7 @@
   (symbol (lib_id "power:+5V") (at 271.78 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ad316fe-872b-4344-bcef-df592d9247a7)
-    (property "Reference" "#PWR030" (at 271.78 58.42 0)
+    (property "Reference" "#PWR034" (at 271.78 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 271.78 67.31 0)
@@ -5219,7 +5325,32 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR034") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 343.789 77.343 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6cba169f-c025-4a9f-8e96-d555ac40daec)
+    (property "Reference" "#PWR041" (at 343.789 83.693 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 343.789 81.7626 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 343.789 77.343 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 343.789 77.343 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 847094c2-4ab0-490a-a6bd-6aeda40d981a))
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -5249,7 +5380,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -5258,7 +5389,7 @@
   (symbol (lib_id "Device:R") (at 179.07 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 716cde67-9fa6-448d-8b55-c436b676e0ae)
-    (property "Reference" "R2" (at 181.61 50.8 0)
+    (property "Reference" "R6" (at 181.61 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "80kOhm" (at 181.61 53.34 0)
@@ -5275,7 +5406,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5284,7 +5415,7 @@
   (symbol (lib_id "Device:C") (at 288.29 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 721ef499-32ae-42f5-b096-2c5ae5c2bb02)
-    (property "Reference" "C11" (at 292.1 200.66 0)
+    (property "Reference" "C8" (at 292.1 200.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 292.1 203.2 0)
@@ -5301,7 +5432,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C11") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5332,7 +5463,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R12") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -5362,7 +5493,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5371,7 +5502,7 @@
   (symbol (lib_id "Device:C") (at 198.12 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e17ec4a-e8b1-4f9b-b346-dc63db35be17)
-    (property "Reference" "C3" (at 201.93 46.99 0)
+    (property "Reference" "C4" (at 201.93 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 201.93 49.53 0)
@@ -5388,7 +5519,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5423,7 +5554,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 55.245 243.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80e1ceca-9307-4465-bb67-9d04ccd1aa85)
-    (property "Reference" "J2" (at 56.515 243.205 90)
+    (property "Reference" "J5" (at 56.515 243.205 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02_Pin" (at 56.515 245.745 90)
@@ -5440,7 +5571,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J2") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -5471,7 +5602,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C6") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -5501,7 +5632,34 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 106.68 193.421 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 87981c9e-aee3-4e06-932d-566cf1e4afa8)
+    (property "Reference" "J10" (at 105.41 195.961 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x03" (at 107.95 195.961 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 106.68 193.421 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 106.68 193.421 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 44c171ba-338d-462d-ac60-2765447fae2e))
+    (pin "2" (uuid 4ec72aa8-4395-466a-b446-fa1d1c6b599f))
+    (pin "3" (uuid 2434b186-2697-4937-b233-4c3f0d969bcd))
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -5531,7 +5689,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5540,7 +5698,7 @@
   (symbol (lib_id "power:GND") (at 390.525 234.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bff9583-065a-44c3-808b-96813c20fbbb)
-    (property "Reference" "#PWR08" (at 396.875 234.95 0)
+    (property "Reference" "#PWR045" (at 396.875 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 394.335 234.95 90)
@@ -5556,7 +5714,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -5586,7 +5744,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5617,7 +5775,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R18") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -5648,7 +5806,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5678,7 +5836,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5709,7 +5867,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C8") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5740,7 +5898,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C14") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -5771,7 +5929,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C9") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5780,7 +5938,7 @@
   (symbol (lib_id "Device:R") (at 179.07 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a124e318-f8f4-40f2-bc0e-19fa801cb2a7)
-    (property "Reference" "R1" (at 181.61 39.37 0)
+    (property "Reference" "R5" (at 181.61 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "900kOhm" (at 181.61 41.91 0)
@@ -5797,26 +5955,47 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R1") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 340.995 66.675 0) (unit 1)
+  (symbol (lib_id "ECQUAAF335LD:ECQUAAF335LD") (at 343.789 62.484 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a289049e-021c-4905-ac9a-5e9e1e9c8ca3)
-    (property "Reference" "C1" (at 344.805 64.516 0)
+    (property "Reference" "C1" (at 348.234 67.564 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3.3 uF 275V" (at 344.805 67.056 0)
+    (property "Value" "3.3 uF 275V" (at 348.234 70.104 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 341.9602 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "ECQUAAF335LD" (at 247.599 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "~" (at 340.995 66.675 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C249.pdf" (at 147.599 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "30.5" (at -52.401 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Panasonic" (at -152.401 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "ECQUAAF335LD" (at -252.401 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "" (at -352.401 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "" (at -452.401 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Part Number" "" (at -552.401 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Arrow Price/Stock" "" (at -652.401 71.374 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "1" (uuid b2a6c957-05d6-4667-81fc-77a90249f621))
     (pin "2" (uuid a2663a58-61e3-4649-a6d2-feab4c988ce8))
@@ -5828,7 +6007,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C7") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -5837,7 +6016,7 @@
   (symbol (lib_id "2023-10-12_03-24-27:ATMEGA328P-PN") (at 304.8 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3376271-73a0-416f-a5f7-8a3b4f60a57c)
-    (property "Reference" "U2" (at 332.74 185.42 0)
+    (property "Reference" "U4" (at 332.74 185.42 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "ATMEGA328P-PN" (at 332.74 187.96 0)
@@ -5880,7 +6059,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "U2") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -5938,7 +6117,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "IC2") (unit 1)
+          (reference "IC1") (unit 1)
         )
       )
     )
@@ -5968,7 +6147,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5977,7 +6156,7 @@
   (symbol (lib_id "Device:R") (at 271.78 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af6e6984-4cae-40e7-9362-b12c1f4bfed0)
-    (property "Reference" "R11" (at 274.32 39.37 0)
+    (property "Reference" "R13" (at 274.32 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 274.32 41.91 0)
@@ -5994,7 +6173,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R11") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -6003,7 +6182,7 @@
   (symbol (lib_id "power:GND") (at 274.32 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b19e8806-9e36-4016-ab74-c13aaca7c29f)
-    (property "Reference" "#PWR04" (at 274.32 228.6 0)
+    (property "Reference" "#PWR035" (at 274.32 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 226.06 0)
@@ -6019,7 +6198,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -6028,7 +6207,7 @@
   (symbol (lib_id "power:GND") (at 304.8 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b35623de-84d3-4fe5-9a37-fed5aa1f311c)
-    (property "Reference" "#PWR06" (at 304.8 220.98 0)
+    (property "Reference" "#PWR038" (at 304.8 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 219.71 0)
@@ -6044,7 +6223,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -6053,7 +6232,7 @@
   (symbol (lib_id "power:GND") (at 179.07 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b37c01f2-f0e6-4dc6-bad8-dcbd30c668b4)
-    (property "Reference" "#PWR026" (at 179.07 63.5 0)
+    (property "Reference" "#PWR024" (at 179.07 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 62.23 0)
@@ -6069,7 +6248,58 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 389.89 226.06 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b426aa72-6f1c-4d7a-977e-b19d2da01383)
+    (property "Reference" "R20" (at 389.89 219.71 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0" (at 389.89 222.25 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 389.89 227.838 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 389.89 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 981ad2b5-ad45-4c7d-af4c-a5a317646793))
+    (pin "2" (uuid afbb3751-74e1-409e-afc5-5d9c2d514480))
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
+          (reference "R20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 36.957 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b5feab9c-bc26-4545-87b8-a8c4d82c5a57)
+    (property "Reference" "#FLG02" (at 36.957 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 36.957 35.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 36.957 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 36.957 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 13cdb120-164f-4dde-a143-34c52a2d9421))
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -6099,7 +6329,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -6129,7 +6359,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -6138,7 +6368,7 @@
   (symbol (lib_id "Device:C") (at 165.1 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2280537-8e2c-4e87-b05e-fed52e971c41)
-    (property "Reference" "C2" (at 168.91 53.34 0)
+    (property "Reference" "C3" (at 168.91 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33nF" (at 168.91 55.88 0)
@@ -6155,7 +6385,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -6164,7 +6394,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3e5cea0-b5b2-4e18-a058-fdf432248a50)
-    (property "Reference" "#PWR028" (at 252.73 58.42 0)
+    (property "Reference" "#PWR031" (at 252.73 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 67.31 0)
@@ -6180,7 +6410,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -6189,7 +6419,7 @@
   (symbol (lib_id "power:+5V") (at 106.68 182.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4370857-d3c7-4ab9-9a01-3048f3054850)
-    (property "Reference" "#PWR044" (at 106.68 186.055 0)
+    (property "Reference" "#PWR017" (at 106.68 186.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 106.68 177.165 0)
@@ -6205,7 +6435,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -6236,7 +6466,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R20") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -6267,7 +6497,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R6") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -6276,7 +6506,7 @@
   (symbol (lib_id "power:+5V") (at 270.51 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d33d4149-0ec5-46d9-bce8-edd426a64bc0)
-    (property "Reference" "#PWR03" (at 270.51 176.53 0)
+    (property "Reference" "#PWR032" (at 270.51 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 270.51 167.64 0)
@@ -6292,7 +6522,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -6327,7 +6557,7 @@
   (symbol (lib_id "power:+48V") (at 85.09 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4e0480f-a968-4d35-95c9-9e0edd61e1c1)
-    (property "Reference" "#PWR02" (at 85.09 30.48 0)
+    (property "Reference" "#PWR010" (at 85.09 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+48V" (at 85.09 21.59 0)
@@ -6343,33 +6573,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 391.795 226.06 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d68dd86d-00f1-4d83-a443-de764c4d559c)
-    (property "Reference" "R5" (at 391.795 219.71 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 391.795 222.25 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 391.795 227.838 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 391.795 226.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dfca918a-b1f7-41b0-b568-c87bc62c7c0f))
-    (pin "2" (uuid b419556d-84c2-4304-9aea-940eda85dd30))
-    (instances
-      (project "Fufupot"
-        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "R5") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -6403,7 +6607,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J6") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -6434,7 +6638,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "SW4") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -6464,7 +6668,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -6520,7 +6724,32 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 56.642 48.641 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e533b8bd-13ce-40db-8664-7d719751b8a0)
+    (property "Reference" "#FLG03" (at 56.642 46.736 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 56.642 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 56.642 48.641 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 56.642 48.641 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eaa12eea-ec1e-46a8-8cca-6dd01d9c6a65))
+    (instances
+      (project "Fufupot"
+        (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -6529,7 +6758,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 74.295 232.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e789db77-7927-4893-9d2e-6ac4afdd101a)
-    (property "Reference" "J4" (at 75.565 229.87 0)
+    (property "Reference" "J7" (at 75.565 229.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 75.565 232.41 0)
@@ -6546,7 +6775,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J4") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -6576,7 +6805,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -6641,7 +6870,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -6672,7 +6901,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "L5") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -6681,7 +6910,7 @@
   (symbol (lib_id "power:GND") (at 96.52 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2f4e9dc-a119-4b75-bedf-d0176fd07776)
-    (property "Reference" "#PWR025" (at 96.52 73.66 0)
+    (property "Reference" "#PWR014" (at 96.52 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 72.39 0)
@@ -6697,7 +6926,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -6706,7 +6935,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 281.94 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6e6fbbe-ba10-4f3a-9014-b6ff32a6b7a2)
-    (property "Reference" "C10" (at 276.86 201.93 0)
+    (property "Reference" "C7" (at 276.86 201.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 276.86 204.47 0)
@@ -6723,7 +6952,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "C10") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -6732,7 +6961,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 37.465 52.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7b98903-e122-45b6-9c76-73c8471269d8)
-    (property "Reference" "J5" (at 34.925 50.8 0)
+    (property "Reference" "J3" (at 34.925 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03" (at 34.925 53.34 0)
@@ -6750,7 +6979,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "J5") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -6781,7 +7010,7 @@
       )
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "F2") (unit 1)
+          (reference "F1") (unit 1)
         )
       )
     )
@@ -6790,7 +7019,7 @@
   (symbol (lib_id "power:+48V") (at 48.895 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc443d94-8b3f-47d9-98dc-bfb6b1de9abf)
-    (property "Reference" "#PWR024" (at 48.895 50.8 0)
+    (property "Reference" "#PWR06" (at 48.895 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+48V" (at 48.895 41.91 0)
@@ -6806,7 +7035,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -6815,7 +7044,7 @@
   (symbol (lib_id "Device:R") (at 252.73 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe9639b5-f85c-47cf-a173-feb9b9ca272b)
-    (property "Reference" "102PS1J2" (at 255.27 52.07 0)
+    (property "Reference" "102PS1J1" (at 255.27 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 255.27 54.61 0)
@@ -6832,7 +7061,7 @@
     (instances
       (project "Fufupot"
         (path "/e8bc21b1-eda8-45a8-be25-55b90339183f"
-          (reference "102PS1J2") (unit 1)
+          (reference "102PS1J1") (unit 1)
         )
       )
     )
